@@ -9,4 +9,4 @@ For the year 2017, It is found that the stock ENPH had the maximum return of 129
 
 Stock ENPH is the second most returning stock just little behind RUN at 81.9%. Rest of the stocks are in loss for the year 2018 as compared to 2017.
 ## **1. Summary**
-Original code may be time consuming as the logic has to be coded in VBA if there is not one already. The advantage of refactoring a code is that since the logic is already there it saves time and leads to better quality code. The disadvantage is there is lots of testing.
+Original code may be time consuming as the logic has to be coded in VBA if there is not one already. The advantage of refactoring a code is that since the logic is already there it saves time and leads to better quality code. The disadvantage is there is a lot of testing.
