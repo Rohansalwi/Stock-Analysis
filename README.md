@@ -8,7 +8,10 @@ For the year 2017, It is found that the stock ENPH had the maximum return of 129
 <img width="607" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/96554223/149631930-8f5e8f95-2099-4e65-adba-818710b1b31c.png">
 
 The snippet of code is as follows:
-Sub AllStocksAnalysisRefactored()
+
+ 
+ Sub AllStocksAnalysisRefactored()
+  
     Dim startTime As Single
     Dim endTime  As Single
 
@@ -136,6 +139,7 @@ Sub AllStocksAnalysisRefactored()
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearvalue)
 
 End Sub
+
 Stock ENPH is the second most returning stock just little behind RUN at 81.9%. Rest of the stocks are in loss for the year 2018 as compared to 2017.
 ## **1. Summary**
 Original code may be time consuming as the logic has to be coded in VBA if there is not one already. The advantage of refactoring a code is that since the logic is already there it saves time and leads to better quality code. The disadvantage is that you need to undertand the original code before refactoring it and it can be thus time consuming and be iterative. Also, there is a lot of testing.
